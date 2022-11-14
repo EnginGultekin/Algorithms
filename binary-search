@@ -1,0 +1,24 @@
+
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları.
+
+ root = 7 
+ 5, 7 den küçük soluna
+ 1, 7 den küçük soluna 5 ten küçük soluna
+ 8, 7 den büyük sağına
+ 3, 7 den ve 5 ten küçük sola 1 den büyük sağına
+ 6, 7 den küçük soluna 5 ten büyük sağına
+ 0, 7,5 ve 1 den küçük soluna
+ 9, 7 ve 8 den büyük sağına
+ 4, 7 ve 5 ten küçük sola 1 ve 3 ten büyük sağına
+ 2, 7,5 ve 3 ten küçük sola
+
+                7
+               / \
+             5     8
+            / \     \
+           1   6      9 
+          / \ 
+         0   3
+            / \
+           2   4 
